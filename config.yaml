@@ -1,0 +1,93 @@
+baseURL: "https://blog.cF5.co.uk"
+languageCode: en
+title: Colin | cF5 Blog
+theme: ["hugo-notice", "PaperMod"]
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    - identifier: connect
+      name: Connect
+      url: https://cF5.co.uk
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 40
+  #  - identifier: tags
+  #    name: Tags
+  #    url: /tags
+  #    weight: 50
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+  defaultTheme: dark
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter", "reddit", "facebook"]
+  ShowReadingTime: true
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Colin Fretwell"
+    subtitle: "**Network Engineer/Administrator | Cyber Security Enthusiast | Geek**"
+    imageUrl: "home/Logo.png"
+    imageWidth: 220
+    imageHeight: 220
+    buttons:
+      - name: Connect
+        url: "https://cF5.co.uk"
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:colin@cF5.co.uk"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/colinfretwell"
+    - name: "twitter"
+      url: "https://twitter.com/cf5_co_uk"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
