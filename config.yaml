@@ -33,7 +33,7 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
-  defaultTheme: dark
+  defaultTheme: auto
   ShowShareButtons: true
   ShareButtons: ["linkedin", "twitter", "reddit", "facebook"]
   ShowReadingTime: true
@@ -52,6 +52,8 @@ params:
     buttons:
       - name: Connect
         url: "https://cF5.co.uk"
+      - name: Blog
+        url: /blog
 
   # List View
   hideDescriptionInList: false
