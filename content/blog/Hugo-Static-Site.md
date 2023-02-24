@@ -1,6 +1,6 @@
 ---
 title: "Building a Hugo Static Site"
-description: "My simple guide showing how to use Hugo for static site"
+description: "A simple guide showing you how to use Hugo for static site"
 date: 2023-02-23
 draft: false
 tags: ["Hugo", "Static Site","Cloudflare", "Git", "GitHub", "Go"]
@@ -15,7 +15,7 @@ Feel free to use the Table of Contents above to skip ahead.
 When I decided to create a blog, I started looking around at all the different options. Should I just use [WordPress](https://wordpress.com/free/), [Weebly](https://www.weebly.com/uk), [Wix](https://www.wix.com/) or one of the many other dynamic sites?
 
 I then came across static sites and started to read into them a bit more, reading the benefits of using them over dynamic sites.
-Static sites are as it sounds, they are "static" or "fixed". Once the site had been written it stays the same and displays the same content to every site visitor. Some of the main benefits of using a static site are they are **fast, flexible and secure**.
+Static sites are as it sounds, they are "static" or "fixed". Once the site has been written it stays the same and displays the same content to every site visitor. Some of the main benefits of using a static site are they are **fast, flexible and secure**.
 
 You can read a more in-depth description from [this blog](https://www.sanity.io/static-websites)
 
@@ -44,10 +44,10 @@ Firstly as I'd never used Hugo before I needed to setup the environment to run H
 This part only needs to be done if you have never used Hugo before or are using Hugo on a new computer.  If you have Hugo already installed on your computer you can leave this section out.
 {{< /notice >}}
 
-I am using Windows on my computer so this part is only relevent if you are running Windows too.  If you are running a different operating system, Hugo provides [installation instructions](https://gohugo.io/installation/) for these as well. These include [macOS](https://gohugo.io/installation/macos/), [Linux](https://gohugo.io/installation/linux/), [Windows](https://gohugo.io/installation/windows/) (Which I'm using) and [BSD](https://gohugo.io/installation/bsd/).
+I am using Windows on my computer so this part is only relevant if you are running Windows too.  If you are running a different operating system, Hugo provides [installation instructions](https://gohugo.io/installation/) for these as well. These include [macOS](https://gohugo.io/installation/macos/), [Linux](https://gohugo.io/installation/linux/), [Windows](https://gohugo.io/installation/windows/) (Which I'm using) and [BSD](https://gohugo.io/installation/bsd/).
 
 - First a folder needs to be created to install Hugo and to store the sites.
-- Create a new folder, something like `C:\Hugo` as well as two subfolders `C:\Hugo\Sites` and `C:\Hugo\Bin`
+- Create a new folder, something like `C:\Hugo` as well as two subfolders `C:\Hugo\Sites` and `C:\Hugo\Bin`.
 You can install Hugo using a selection of [package managers](https://gohugo.io/installation/windows/#package-managers) or their [Prebuilt binaries](https://gohugo.io/installation/windows/#prebuilt-binaries). I decided to use their Prebuilt binaries.
 - Go to the [Prebuilt binaries](https://gohugo.io/installation/windows/#prebuilt-binaries) section or the [latest release](https://github.com/gohugoio/hugo/releases/latest) page on GitHub and download the latest release. I highly recommend you download the extended version. The latest version for me was `hugo_extended_0.110.0_windows-amd64.zip`
 - Now go and extract the .zip file into `C:\Hugo\Bin`.
@@ -85,7 +85,7 @@ Change "SiteName" to the name of the site.
 
 The Basic website has now been created, it's time to apply a theme.
 
-A theme will change the look and style of the website to suit your needs. There any many themes for you to choose from. Hugo has a large selection to choose from here: [https://themes.gohugo.io/](https://themes.gohugo.io/).
+A theme will change the look and style of the website to suit your needs. There are many themes for you to choose from. Hugo has a large selection to choose from here: [https://themes.gohugo.io/](https://themes.gohugo.io/).
 
 Each theme should have instructions on how to apply the theme and may also have a demo link so you are able to see a live version of it.
 Many of them have very in-depth documentation explaining all the functions available when using the selected theme.
@@ -118,7 +118,7 @@ Now we need to edit the config file in the root folder to tell it to use the ins
 
 ## Run the Hugo Server
 
-Now it times to see your new site running on your local machine.
+Now it's time to see your new site running on your local machine.
 
 - Open terminal and navigate to the folder site
 ```console
@@ -136,7 +136,7 @@ There is your site running.
 You can now make changes to the site. You can edit the config file to change the site settings. Here is a [sample config](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml) file for the theme I installed. You can also start to add some [site content](https://gohugo.io/getting-started/quick-start/#add-content).
 
 {{< notice note >}}
-I will be covering adding [site content](https://gohugo.io/getting-started/quick-start/#add-content) and other things in a seperate blog post soon.
+I will be covering adding [site content](https://gohugo.io/getting-started/quick-start/#add-content) and other things in a separate blog post soon.
 {{< /notice >}}
 
 When editing and making changes to the site, as long as you are still running `hugo server -D` in the terminal, all the changes will be refreshed in the browser. Meaning you can see any changes you make instantly.
