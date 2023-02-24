@@ -1,6 +1,6 @@
 ---
 title: "Building a Hugo Static Site"
-description: "A simple guide showing you how to use Hugo for static site"
+description: "A simple guide showing you how to use Hugo for a static site"
 date: 2023-02-23
 draft: false
 tags: ["Hugo", "Static Site","Cloudflare", "Git", "GitHub", "Go"]
