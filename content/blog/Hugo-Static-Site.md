@@ -170,3 +170,7 @@ I will be covering how to do this in another blog post.
 I hope you found this post useful.
 
 Colin
+
+---
+
+*Also published on [Medium](https://medium.com/@cF5)*
