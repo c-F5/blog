@@ -163,7 +163,6 @@ In another blog post I've explained [how to use Cloudflare Pages and GitHub to h
 
 [Cloudflare](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/) have some good documentation explaining how to a Hugo Site with Cloudflare Pages.
 
----
 
 I hope you found this post useful.
 

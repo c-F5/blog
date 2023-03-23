@@ -1,6 +1,6 @@
 ---
 title: "Deploy a Hugo Site with Cloudflare Pages and GitHub"
-description: "A simple guide on how to deploy a Hugo Site with Cloudflare Pages and GitHub for free!"
+description: "How to deploy a Hugo Site with Cloudflare Pages and GitHub for free!"
 date: 2023-03-23
 draft: false
 tags: ["Cloudflare Pages", "Hugo", "Static Site","Cloudflare", "GitHub"]
@@ -82,7 +82,7 @@ If you own your own domain and don't want to use the subdomain `*.pages.dev` Clo
 - Select "Setup a custom domain"
 - Enter your "custom domain" and follow the instructions
 
----   
+   
 
 I hope you found this post useful.
 
