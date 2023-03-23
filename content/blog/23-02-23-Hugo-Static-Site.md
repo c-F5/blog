@@ -135,10 +135,6 @@ There is your site running.
 
 You can now make changes to the site. You can edit the config file to change the site settings. Here is a [sample config](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml) file for the theme I installed. You can also start to add some [site content](https://gohugo.io/getting-started/quick-start/#add-content).
 
-{{< notice note >}}
-I will be covering adding [site content](https://gohugo.io/getting-started/quick-start/#add-content) and other things in a separate blog post soon.
-{{< /notice >}}
-
 When editing and making changes to the site, as long as you are still running `hugo server -D` in the terminal, all the changes will be refreshed in the browser. Meaning you can see any changes you make instantly.
 
 ## Generating the Static Site with Hugo
@@ -155,17 +151,19 @@ The `public` folder will have been created with all the static files needed to d
 
 ## Cloudflare Pages and GitHub
 
-You can also use hosting providers like [Cloudflare Pages](https://pages.cloudflare.com/) to generate the static site for you as part of their deployment process when deploying your site. This means you don't need to generate the site yourself every time you update/add new site content.
+You can also use a hosting providers like [Cloudflare Pages](https://pages.cloudflare.com/) to generate the static site for you as part of their deployment process when deploying your site. This means you don't need to generate the site yourself every time you update/add new site content.
 
 You can put your Hugo site on [GitHub](https://github.com/) and tell [Cloudflare Pages](https://pages.cloudflare.com/) to use the GitHub repository to generate the site for you. When you then update/add new content to the Git Hub repository Cloudflare detects the change and regenerates the static site for you.
 
-{{< notice note >}}
-I will be covering how to do this in another blog post.
+{{< notice info >}}
 
-**Using [Cloudflare Pages](https://pages.cloudflare.com/) and [GitHub](https://github.com/) to host your static website.**
+In another blog post I've explained [how to use Cloudflare Pages and GitHub to host your site](/blog/23-03-23-cloudflare-github).
+
 {{< /notice >}}
 
 [Cloudflare](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/) have some good documentation explaining how to a Hugo Site with Cloudflare Pages.
+
+---
 
 I hope you found this post useful.
 
