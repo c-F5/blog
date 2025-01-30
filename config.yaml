@@ -64,12 +64,10 @@ params:
     hiddenInSingle: false # hide on single page
 
   socialIcons:
-    - name: "email"
-      url: "mailto:colin@cF5.co.uk"
-    - name: "linkedin"
-      url: "https://www.linkedin.com/in/colinfretwell"
-    - name: "twitter"
-      url: "https://twitter.com/cf5_co_uk"
+#    - name: "email"
+#      url: "mailto:colin@cF5.co.uk"
+#    - name: "linkedin"
+#      url: "https://www.linkedin.com/in/colinfretwell"
 
   # text search
   fuseOpts:
